@@ -1,0 +1,93 @@
+.Card_hover:hover .img_card {
+    fill: #ffffff;
+}
+
+.img_card {
+    margin: 0 16px;
+}
+
+.card_para {
+    color: #000;
+}
+
+.Card_hover {
+    background-color: $white-color;
+    color: $black-color;
+
+    &:hover {
+        background-color: $primary-color;
+        cursor: pointer;
+        color: $white-color;
+    }
+}
+
+.Card_hover:hover .getBtn {
+    background-color: $white-color;
+    color: $secondary-color;
+}
+
+.Card_hover:hover .Card_heading {
+    color: $white-color;
+}
+
+.Card_hover:hover .card_para {
+    color: $white-color;
+}
+
+.Card_heading {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 1rem 0;
+
+}
+.GetStartFooter {
+    margin-top: -20px;
+}
+
+
+
+// ================================home page new ==========================
+
+
+.how-works .card img ,.raiseAround .card img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.how-works .card ,.raiseAround .card{
+    background-color: #111A3E;
+    padding: 50px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.how-works .card p, .raiseAround .card p {
+    color: #b3b3b3;
+    font-size: 15px;
+    text-align: start;
+    font-family: poppins;
+}
+
+.how-works .card h5 , .raiseAround .card h5{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+    font-family: poppins;
+   font-weight: 600;
+   text-align: start;
+
+}
+
+
+.carousel-cell::before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 80px;
+    color: white;
+    background-color: #d3d3d35c;
+}
+

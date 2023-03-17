@@ -1,0 +1,43 @@
+.navbar-toogle-btn:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link {
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: auto 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: #000;
+    }
+}
+.logo {
+    width: 20rem !important;
+     height: 4rem !important;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.navbarHide{
+    display: none !important;
+}
+
+
+@media (max-width : 500px) {
+    .logo {
+        width: 13rem !important;
+         height: 4rem !important;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }  
+
+    .navbar-toggler{
+        height: 40px !important;
+        width: 60px !important;
+    }
+}

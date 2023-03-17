@@ -1,0 +1,49 @@
+@import '../../partails/Common/Utillies_Color';
+
+.slick-dots li.slick-active button{
+    &::before{
+        color: $primary-color !important;
+    }
+}
+.slick-dots{
+    font-size: 2rem !important;
+}
+.img_about{
+    object-fit: contain !important;
+}
+.about_choose{
+    min-height: 25rem;
+}
+.HowCard_icon i{
+    font-size: 2.5rem;
+    color: $primary-color;
+    background-color: $text-grey;
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+.Posting_ads_wrapper{
+    background-color: $primary-color;
+}
+.upper_container{
+   
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    // background-color: rgb(252, 250, 250);
+    border-radius: 100%;
+}
+.upper_container p{
+    margin-bottom: 0;
+}
+.chose_heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.team_section{
+        background-color: #F7F7F7;
+        border: 1px solid rgb(214, 208, 208);
+        border-radius: 10px;
+        width: 24rem;
+}
+.team_section .card {
+    background-color: #F7F7F7;
+}

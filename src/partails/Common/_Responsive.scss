@@ -1,0 +1,164 @@
+@media (max-width:1420px) {
+    .investor_card {
+            width: 22rem;
+        }
+        .review_section {
+            width: 22rem;
+        }
+    .review_section {
+        width: 28rem;
+    }
+    .how_card{
+        width: 20rem;
+}
+}
+
+@media (min-width:1024px) {
+    .margin_top_contant {
+            margin-top: 29px;
+        }
+    .about_choose{
+        width: 20rem;
+    }
+    .about_how_work{
+        width: 22rem;
+    }
+    .investor_card {
+            width: 20rem;
+        }
+.company_slider_card {
+        width: 18rem;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+@media (max-width:1210px) {
+
+    .how_card {
+        width: 18rem;
+    }
+    .company_slider_card{
+        width: 16rem;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .support-service p{
+        font-size: 1rem;
+    }
+    .support-service h6{
+        font-size: 1rem;
+    }
+    .support-service i{
+        font-size: 1.2rem;
+    }
+    .margin_top_contant{
+        margin-top:auto;
+    }
+    .about_choose {
+            width: 16rem;
+        }
+    .review_section {
+            width: 25rem;
+        }
+
+.company_slider_card{
+    width: 15rem; 
+    margin-left: 12px;
+    margin-right: 12px;   
+}
+
+}
+@media (max-width:991px) {
+    .about_choose {
+            width: 18rem;
+        }
+    .about_how_work {
+            width: 20rem;
+        }
+    .investor_card {
+            width: 18rem;
+        }
+    .review_section {
+            width: 22rem;
+        }
+    .navigation-wrap .navbar-brand .nav_img {
+        height: 50px;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .top-banner {
+        padding: 9.3rem 0 9.3rem;
+    }
+}
+
+@media (max-width:767px) {
+    .support-service p {
+            font-size: 0.8rem;
+        }
+    
+        .support-service h6 {
+            font-size: 0.8rem;
+        }
+    
+        .support-service i {
+            font-size: 1rem;
+        }
+    .about_how_work {
+            width: 18rem;
+        }
+    .investor_card{
+       width: 18rem;
+    }
+    .review_section {
+        width: 20rem;
+    }
+    .slick-next:before,
+    .slick-prev:before {
+        display: none !important;
+    }
+
+    .logo {
+        width: 13rem;
+        height: 1.8rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .cart-para p {
+        margin: -3px auto;
+        font-size: 0.5rem;
+    }
+
+    .cart-page img {
+        width: 200px;
+        min-height: 200px;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+}
+.common_wrapper{
+    margin-top: 3.6rem;
+}
+.wrapper{
+    padding: 2rem;
+}

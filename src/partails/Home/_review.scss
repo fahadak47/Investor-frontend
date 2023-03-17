@@ -1,0 +1,59 @@
+.review_section {
+    background-color: #F7F7F7;
+    border: 1px solid rgb(214, 208, 208);
+    border-radius: 10px;
+    width: 35rem;
+}
+
+.review_section .card {
+    background-color: #F7F7F7;
+}
+
+.review_section img {
+    // border: 1px solid red;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+}
+.review_section .qoutes{
+    transform: rotate(90deg);
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+// ======================== home new==================
+
+.raised_around{
+    background-color: #F3F6FF;
+}
+
+.raised_logo {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 10%);
+    padding: 1rem;
+    font-family: poppins;
+    // margin-top: 1rem;
+}
+
+.raised_logo img {
+    width: 110px;
+}
+
+.panelCollapse{
+    background: #F3F6FF;
+    border: none;
+    border: 1px solid #f3f6ff;
+    cursor: pointer;
+    outline: none;
+    padding: 1rem;
+    position: relative;
+    margin-top: 1rem;
+    text-align: left;
+    width: 100%;
+}

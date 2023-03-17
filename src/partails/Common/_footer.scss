@@ -1,0 +1,49 @@
+.fCatbtn {
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: inline-block;
+    color: $white-color;
+    border: 1px solid rgb(173, 170, 170);
+    background-color: #007ce967;
+    border-radius: 15px;
+    padding: 6px 12px;
+    margin: 5px 5px;
+
+    &:hover {
+        background-color: $black-color;
+    }
+}
+
+.footer_nav {
+    list-style: none;
+}
+
+.footer_nav li {
+    color: $white-color;
+    font-size: large;
+}
+
+.footer_nav li a {
+    cursor: pointer;
+}
+
+.email_footer {
+    font-size: small;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+.main_footer {
+    background-color: $primary-color;
+}
+
+.second_footer {
+    padding: 5px;
+    background-color: #045ead;
+}
+
+.second_footer p {
+    margin: 0;
+}

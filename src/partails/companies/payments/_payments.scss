@@ -1,0 +1,108 @@
+#paymentsPage{
+
+}
+
+
+#paymentsPage .PaymentsPage_wrapper{
+    background-color: white;
+    margin:2rem auto;
+    // border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.blue_right_Border{
+    border-left: 13px solid rgb(1 114 214);
+    border-radius: 10px;
+    height: 100%;
+    padding-bottom: 5px;
+    // position: absolute;
+    // left: 0;
+    // top: 0;
+}
+.payment_right_side{
+    padding: 0.7rem;
+}
+
+.payment_desc_text{
+    margin-top: 1rem !important;
+    background-color: rgb(238 244 250);
+    border-radius: 10px;
+    padding: 15px;
+    color: rgb(169 170 171);
+}
+
+
+#paymentsPage h4{
+    color: black;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.payButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.payButton button{
+    background-color: rgb(1 114 214);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    outline: 1px solid blue;
+    border-radius: 4px;
+}
+
+
+.btn-text-left{
+	text-align: right;	
+}
+
+
+
+@media (max-width : 600px) {
+    .blue_right_Border{
+        border-left: 10px solid rgb(1 114 214);
+        border-radius: 10px;
+        height: 100%;
+        // position: absolute;
+        // left: 0;
+        // top: 0;
+    }
+}
+
+
+
+
+// =========================================  PAYMENT HISTORY SCSSS ==========================================================
+
+#paymentsHistory{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    margin-top:3rem;
+
+}
+// rgb(207 231 237)/
+#paymentsHistory .topsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+#paymentsHistory .topsection h3{
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.tableContainer{
+    width: 97% !important;
+    border-radius: 15px !important;
+    margin: 1rem auto;
+    background-color: rgb(238 244 250) !important;
+}

@@ -1,0 +1,29 @@
+.counter {
+    font-size: 40px;
+    color: #fff;
+}
+
+.counter_plus {
+    font-size: 40px;
+    color: #fff;
+}
+
+.counter-section {
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+}
+
+.counter-section p {
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.counter-section {
+    background-color: $primary-color;
+}
+
+.counter_para i {
+    background-color: #045ead;
+    padding: 15px;
+    font-size: 2rem ;
+    border-radius: 50%;
+}

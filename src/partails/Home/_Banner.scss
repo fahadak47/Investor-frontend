@@ -1,0 +1,65 @@
+.banner-heading-primary {
+    color: $primary-color;
+}
+
+
+.heroWrapper{
+    background-color:#F3F6FF;
+}
+
+.commonH2{
+    font-weight: 700;
+    font-family: poppins;
+}
+
+.heroWrapper h2 span{
+    color: $HomePrimaryColor;
+}
+.heroBtn{
+    background-color: $HomePrimaryColor !important;
+    border: 1px solid $HomePrimaryColor !important;
+}
+
+.heroWrapper .ant-col div{
+    padding-left: 2rem;
+}
+
+
+.allStartupbutton{
+    background-color:$HomePrimaryColor !important ;
+    border: 1px solid $HomePrimaryColor !important;
+    font-weight: 500 !important;
+    padding: 1rem 1.5rem !important;
+    box-shadow: 1px 1px 6px 2px '#294ccc5';
+
+
+}
+
+.allStartupbutton:active{
+    background-color: navy !important;
+}
+.allStartupbutton:hover{
+    background-color:white !important;
+    color: $HomePrimaryColor !important;
+}
+
+@media (max-width : 768px) {
+    .heroWrapper .row:first-child{
+        text-align: center;
+        border: 2pc solid;
+    }
+}
+
+@media (min-width : 1600px) {
+    .heroWrapper h2{
+        font-weight: 700;
+        font-family: poppins;
+        font-size: 3.2rem;
+        line-height: 1.2em;
+    }
+
+    .heroWrapper .ant-col div{
+        padding-left: 3rem !important;
+
+    }
+}

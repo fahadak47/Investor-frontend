@@ -1,0 +1,11 @@
+.header_wrapper{
+    background-color: $primary-color;
+    padding-top: 5rem;
+}
+.header_heading{
+    padding-bottom:5px;
+    font-size: 4rem;
+}
+.breadcrumb-item::before{
+    color: #fff;
+}

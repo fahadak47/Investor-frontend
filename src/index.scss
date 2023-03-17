@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// **************** Common Partials  *******************
+@import "./partails/Common/Utillies_Color";
+@import './partails/Common/Utillies_Setup';
+@import './partails/Common/Bottons.scss';
+@import './partails/Common/Navbar';
+@import './partails/Common/Counter';
+@import './partails/Common/footer';
+@import './partails/Common/Responsive';
+
+// **************** Home page Partials  *******************
+@import './partails/Home/Banner';
+@import './partails/Home/getCard';
+@import './partails/Home/Slider';
+@import './partails/Home/review';
+
+// **************** About Page Partials  *******************
+@import './partails/About/Header.scss';
+@import './partails/About/AboutSlider.scss';
+
+// **************** Contact Page Partials  *******************
+@import "./partails/Contact/Form";
+@import './partails/Login&SignUp/LoginForm';
+
+// **************** Profile Partials  *******************
+@import './partails/userProfile/UserProfile.scss';
+
+// **************** COmpanies Partials  *******************
+@import './partails/companies/companies.scss';
+@import './partails/companies/sidebar.scss';
+
+// **************** component Partials  *******************
+@import './partails/components/Video_card';
+
+// ******************* get company user side= ***************
+@import './partails/getCompanyUserSide/companyDetails';
+
+@import './partails/Common/creditCard';
+
+// *******************  company payments ***************
+
+
+@import './partails/companies/payments/payments';
+
+
+.top-banner {
+  min-width: 100%;
+  background-image: url(../public/banner.jpg);
+  background-size: cover;
+  padding: 10.875rem 0 9.375rem;
+}
+
+
+
+

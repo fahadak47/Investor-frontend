@@ -1,0 +1,79 @@
+.white_about_btn{
+    display: inline-block;
+    padding: 0.475rem 2rem;
+    line-height: 1.5625rem;
+    background-color: $white-color;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color:$secondary-color;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease-out 0s;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $white-color;
+    }
+}
+
+
+.main-btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.475rem 2rem;
+    line-height: 1.5625rem;
+    background-color: $primary-color;
+    // border: 0.1875rem solid $primary-color;
+    border-radius: 2px;
+    border: none;
+    color: $white-color;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease-out 0s;
+
+    &:hover {
+        background-color: $secondary-color;
+        color: $white-color;
+    }
+}
+.getBtn {
+    padding: 0.625rem 1.875rem;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: $secondary-color;
+    color: $white-color;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+
+    &:hover {
+        background-color: $white-color;
+        color: $secondary-color;
+    }
+}
+.white-btn {
+    padding: 0.625rem 1.875rem;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: $secondary-color;
+    color: $white-color;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.4s ease-out 0s;
+    &:hover {
+        background-color: $primary-color;
+        color: $white-color;
+    }
+}
+

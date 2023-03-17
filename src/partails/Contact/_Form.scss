@@ -1,0 +1,45 @@
+.support-service p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+.support-service i{
+    font-size: 1.5rem;
+    color: $white-color;
+    background-color: $secondary-color;
+    padding: 15px;
+    border-radius: 50%;
+}
+.support-service h6{
+    font-size: 1.5rem;
+}
+
+.support-service{
+    display: flex;
+    border: 1px solid rgb(133, 131, 131);
+    margin: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+.form_btn{
+    display: inline-block;
+        padding: 0.475rem 2rem;
+        line-height: 1.5625rem;
+        background-color: $primary-color;
+        text-align: center;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: $white-color;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border: 2px solid $primary-color;
+        text-transform: capitalize;
+        box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+        transition: all 0.4s ease-out 0s;    
+        &:hover {
+            background-color: $white-color;
+            color: $primary-color;
+            border: 2px solid $primary-color;
+        }
+}

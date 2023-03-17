@@ -1,0 +1,733 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", "sans-serif";
+  font-size: 100%;
+  font-weight: 400;
+}
+
+/* ########################### Custom Scroll bar ################################ */
+::webkit-scrollbar {
+  width: 0.625;
+}
+
+::webkit-scrollbar-track {
+  background-color: white;
+}
+
+::webkit-scrollbar-thumb {
+  background-color: #007CE9;
+}
+
+/* ################################### custom scroll bar ################################################## */
+h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-family: "Quicksand", "sans-serif";
+  color: #000000;
+  line-height: 3rem;
+}
+
+h4 {
+  color: #000000;
+  font-family: "Quicksand", "sans-serif";
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  color: #007CE9;
+  text-transform: capitalize;
+  font-family: "Quicksand", "sans-serif";
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nav-item .nav-link {
+  cursor: pointer;
+}
+.nav-item .nav-link:hover {
+  color: #007CE9;
+}
+
+.nav-item .active {
+  color: #007CE9;
+}
+
+.white_about_btn {
+  display: inline-block;
+  padding: 0.475rem 2rem;
+  line-height: 1.5625rem;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+  transition: all 0.4s ease-out 0s;
+}
+.white_about_btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main-btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.475rem 2rem;
+  line-height: 1.5625rem;
+  background-color: #007CE9;
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+  transition: all 0.4s ease-out 0s;
+}
+.main-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.getBtn {
+  padding: 0.625rem 1.875rem;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: none;
+  text-transform: capitalize;
+}
+.getBtn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.white-btn {
+  padding: 0.625rem 1.875rem;
+  line-height: 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.4s ease-out 0s;
+}
+.white-btn:hover {
+  background-color: #007CE9;
+  color: #ffffff;
+}
+
+.navbar-toogle-btn:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: auto 10px;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: #000;
+}
+
+.logo {
+  width: 20rem;
+  height: 3rem;
+}
+
+.banner-heading-primary {
+  color: #007CE9;
+}
+
+.Card_hover:hover .img_card {
+  fill: #ffffff;
+}
+
+.img_card {
+  margin: 0 16px;
+}
+
+.card_para {
+  color: #000;
+}
+
+.Card_hover {
+  background-color: #ffffff;
+  color: #000;
+}
+.Card_hover:hover {
+  background-color: #007CE9;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.Card_hover:hover .getBtn {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.Card_hover:hover .Card_heading {
+  color: #ffffff;
+}
+
+.Card_hover:hover .card_para {
+  color: #ffffff;
+}
+
+.Card_heading {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 1rem 0;
+}
+
+.GetStartFooter {
+  margin-top: -20px;
+}
+
+.counter {
+  font-size: 40px;
+  color: #fff;
+}
+
+.counter_plus {
+  font-size: 40px;
+  color: #fff;
+}
+
+.counter-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+.counter-section p {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.counter-section {
+  background-color: #007CE9;
+}
+
+.counter_para i {
+  background-color: #045ead;
+  padding: 15px;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.Slider-main {
+  background-color: #007CE9;
+  width: 100%;
+}
+
+.Slider-main h5 {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.Card_company_img {
+  z-index: 10;
+}
+.Card_company_img:hover {
+  transform: scale(1.01);
+}
+
+.card_absolute {
+  background-color: rgba(0, 0, 0, 0.356);
+  margin-top: -3rem;
+  padding: 1px auto;
+  min-width: 80px;
+  text-align: center;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.investor .slick-prev:before,
+.investor .slick-next:before {
+  color: rgb(207, 207, 197) !important;
+  font-size: 2rem !important;
+}
+
+.review_section {
+  background-color: #F7F7F7;
+  border: 1px solid rgb(214, 208, 208);
+  border-radius: 10px;
+  width: 35rem;
+}
+
+.review_section .card {
+  background-color: #F7F7F7;
+}
+
+.review_section img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.review_section .qoutes {
+  transform: rotate(90deg);
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fCatbtn {
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid rgb(173, 170, 170);
+  background-color: rgba(0, 124, 233, 0.4039215686);
+  border-radius: 15px;
+  padding: 6px 12px;
+  margin: 5px 5px;
+}
+.fCatbtn:hover {
+  background-color: #000;
+}
+
+.footer_nav {
+  list-style: none;
+}
+
+.footer_nav li {
+  color: #ffffff;
+  font-size: large;
+}
+
+.footer_nav li a {
+  cursor: pointer;
+}
+
+.email_footer {
+  font-size: small;
+}
+.email_footer:hover {
+  color: #000;
+}
+
+.main_footer {
+  background-color: #007CE9;
+}
+
+/* .second_footer {
+  padding: 1rem;
+  background-color: #045ead;
+} */
+
+.second_footer p {
+  margin: 0;
+}
+
+.header_wrapper {
+  background-color: #007CE9;
+  padding-top: 5rem;
+}
+
+.header_heading {
+  padding-bottom: 5px;
+  font-size: 4rem;
+}
+
+.breadcrumb-item::before {
+  color: #fff;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #007CE9 !important;
+}
+
+.slick-dots {
+  font-size: 2rem !important;
+}
+
+.img_about {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+.about_choose {
+  min-height: 25rem;
+}
+
+.HowCard_icon i {
+  font-size: 2.5rem;
+  color: #007CE9;
+  background-color: rgb(245, 250, 250);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+.Posting_ads_wrapper {
+  background-color: #007CE9;
+}
+
+.upper_container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 100%;
+}
+
+.upper_container p {
+  margin-bottom: 0;
+}
+
+.chose_heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.team_section {
+  background-color: #F7F7F7;
+  border: 1px solid rgb(214, 208, 208);
+  border-radius: 10px;
+  width: 24rem;
+}
+
+.team_section .card {
+  background-color: #F7F7F7;
+}
+
+.support-service p {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.support-service i {
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.support-service h6 {
+  font-size: 1.5rem;
+}
+
+.support-service {
+  display: flex;
+  border: 1px solid rgb(133, 131, 131);
+  margin: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.form_btn {
+  display: inline-block;
+  padding: 0.475rem 2rem;
+  line-height: 1.5625rem;
+  background-color: #007CE9;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 2px solid #007CE9;
+  text-transform: capitalize;
+  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+  transition: all 0.4s ease-out 0s;
+}
+.form_btn:hover {
+  background-color: #ffffff;
+  color: #007CE9;
+  border: 2px solid #007CE9;
+}
+
+.form-center {
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.btr {
+  border-top-right-radius: 5px !important;
+}
+
+.btl {
+  border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.nav-pills {
+  display: table !important;
+  width: 100%;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(13, 110, 253, 0.2509803922);
+  margin: 0;
+}
+
+.nav-pills .nav-item {
+  display: table-cell;
+  background: rgba(13, 110, 253, 0.1803921569);
+  padding: 0;
+}
+
+.form {
+  padding: 10px;
+  height: 300px;
+}
+
+.form input {
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.form input:focus {
+  box-shadow: none;
+}
+
+.form button {
+  margin-top: 20px;
+}
+
+@media (max-width: 1420px) {
+  .investor_card {
+    width: 22rem;
+  }
+  .review_section {
+    width: 22rem;
+  }
+  .review_section {
+    width: 28rem;
+  }
+  .how_card {
+    width: 20rem;
+  }
+}
+@media (min-width: 1024px) {
+  .margin_top_contant {
+    margin-top: 29px;
+  }
+  .about_choose {
+    width: 20rem;
+  }
+  .about_how_work {
+    width: 22rem;
+  }
+  .investor_card {
+    width: 20rem;
+  }
+  .company_slider_card {
+    width: 18rem;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+@media (max-width: 1210px) {
+  .how_card {
+    width: 18rem;
+  }
+  .company_slider_card {
+    width: 16rem;
+  }
+}
+@media (max-width: 1024px) {
+  .support-service p {
+    font-size: 1rem;
+  }
+  .support-service h6 {
+    font-size: 1rem;
+  }
+  .support-service i {
+    font-size: 1.2rem;
+  }
+  .margin_top_contant {
+    margin-top: auto;
+  }
+  .about_choose {
+    width: 16rem;
+  }
+  .review_section {
+    width: 25rem;
+  }
+  .company_slider_card {
+    width: 15rem;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .about_choose {
+    width: 18rem;
+  }
+  .about_how_work {
+    width: 20rem;
+  }
+  .investor_card {
+    width: 18rem;
+  }
+  .review_section {
+    width: 22rem;
+  }
+  .navigation-wrap .navbar-brand .nav_img {
+    height: 50px;
+  }
+  .navigation-wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .top-banner {
+    padding: 9.3rem 0 9.3rem;
+  }
+}
+@media (max-width: 767px) {
+  .support-service p {
+    font-size: 0.8rem;
+  }
+  .support-service h6 {
+    font-size: 0.8rem;
+  }
+  .support-service i {
+    font-size: 1rem;
+  }
+  .about_how_work {
+    width: 18rem;
+  }
+  .investor_card {
+    width: 18rem;
+  }
+  .review_section {
+    width: 20rem;
+  }
+  .slick-next:before,
+.slick-prev:before {
+    display: none !important;
+  }
+  .logo {
+    width: 13rem;
+    height: 1.8rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+  .cart-para p {
+    margin: -3px auto;
+    font-size: 0.5rem;
+  }
+  .cart-page img {
+    width: 200px;
+    min-height: 200px;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
+}
+.common_wrapper {
+  margin-top: 3.6rem;
+}
+
+.wrapper {
+  padding: 2rem;
+}
+
+.top-banner {
+  min-width: 100%;
+  background-image: url(../public/banner.jpg);
+  background-size: cover;
+  padding: 10.875rem 0 9.375rem;
+}/*# sourceMappingURL=index.css.map */
